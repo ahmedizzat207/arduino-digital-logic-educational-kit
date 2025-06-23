@@ -1,0 +1,49 @@
+# Ignore Windows and VS Code files
+*.exe
+*.obj
+*.dll
+*.log
+*.tmp
+*.user
+*.suo
+*.pdb
+*.idb
+*.ipch
+*.aps
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.vscode/
+
+# Ignore PowerShell history
+*.pshistory
+
+# Ignore temporary files
+~$*
+*.swp
+*.bak
+*.tmp
+*.temp
+
+# Ignore Office temp files
+~$*.pptx
+
+# Ignore Arduino build files
+*.ino.*
+*.hex
+*.elf
+*.eep
+*.bin
+build/
+*.o
+*.d
+*.lst
+
+# Dependencies
+libraries/
+
+# Ignore PDF and docx files (optional, remove if you want to keep these in git)
+#*.pdf
+#*.docx
